@@ -1,0 +1,11 @@
+<div class="p-4">
+    <h1 class="text-2xl font-bold mb-4 text-center">Blog Posts</h1>
+    <ul class="list-none">
+        <li *ngFor="let post of posts" class="mb-2">
+            <a [routerLink]="['/posts', post.id]" class="text-blue-500 hover:underline">
+                {{ post.title }}
+            </a>
+        </li>
+    </ul>
+    <div *ngIf="error" class="text-red-500">{{ error }}</div>
+</div>

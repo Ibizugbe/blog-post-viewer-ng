@@ -1,0 +1,22 @@
+ul {
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #3b82f6;
+    /* Tailwind's blue-500 */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.text-red-500 {
+    color: #f87171;
+    /* Tailwind's red-500 */
+}
