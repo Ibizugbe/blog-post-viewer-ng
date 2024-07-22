@@ -1,0 +1,5 @@
+<div *ngIf="post" class="p-4">
+    <h1 class="text-3xl font-bold mb-4">{{ post.title }}</h1>
+    <p class="text-lg">{{ post.body }}</p>
+</div>
+<div *ngIf="error" class="text-red-500">{{ error }}</div>
